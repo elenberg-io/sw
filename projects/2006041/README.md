@@ -41,14 +41,13 @@ sudo systemctl enable ntfy
 sudo systemctl start ntfy
 ```
 
+Διάβασα και δοκίμασα διαφορετικές λειτουργίες και επιλογές για το τι περιλαμβάνει το μήνυμα ειδοποίησης και αποφάσισα να χρησιμοποιήσω το παρακάτω. Συγκερκιμένα διάλεξα τίτλο χρησιμοποιώτας το Title header, την προτεραιότητα χαμηλή με το X-Priority header, emojis που συνοδεύουν το κείμενο με το Tags header και το σώμα του μηνύματος που θα με ειδοποιεί ότι οι εντολές μου ολοκληρώθηκαν.
 ```
 rsync -a root@laptop /backups/laptop \
   && zfs snapshot ... \
-  && curl -H prio:low "Tags: tada,heavy_check_mark" \
-  && curl -H "X-Priority: 4" 
-  && curl -H "Title: Dogs are better than cats" \
-  && curl -d "Your commands finished running" \ 
-  && curl -H "Icon: https://styles.redditmedia.com/t5_32uhe/styles/communityIcon_xnt6chtnr2j21.png" \
+  && curl -H "Title: Running commands update" \
+  && curl -H "Tags: tada,heavy_check_mark" \
+  && curl -H "X-Priority: 2" -d "Your commands finished running." \ 
   ntfy.sh/evergou_alerts
  ```
 
