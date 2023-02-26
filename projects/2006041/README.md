@@ -43,8 +43,7 @@ python3 test.py | sort > results.txt && STATUS='Test completed' && ntfy -b teleg
 
 ### Διαδικασία Συνεργασίας 
 Δημιουργήσαμε καινούριο repo στον οργανισμό μας με README.md που έχει τα στοιχεία των μελών της ομάδας αλλά και τους κανόνες συνεργασίας που θα χρησιμοποιήσουμε ως ομάδα αυτό το εξάμηνο.
-[https://github.com/TaMpotakia/team-repo/blob/main/README.md](https://github.com/TaMpotakia/team-repo/blob/main/README.md)
-
+[https://github.com/TaMpotakia/team-repo](https://github.com/TaMpotakia/team-repo)
 
 ## Εβδομάδα 3
 ### Εγκατάσταση προσαρμοσμένου και εξατομικευμένου λειτουργικού συστήματος
