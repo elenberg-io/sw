@@ -9,8 +9,8 @@ profile: [elenberg-io](https://github.com/elenberg-io) <br />
 | Εβδομάδα | [Όλα τα παραδοτέα βρίσκονται στην ίδια σελίδα της τελικής αναφοράς](https://epidrome.github.io/teaching/deliverables/) με τα προσωπικά στοιχεία σας (Όνομα, ΑΜ, github profile) και μαζί με αυτόν εδώ τον πίνακα περιεχομένων | Σύνδεσμος στην [εβδομαδιαία παρουσίαση προόδου στις συζητήσεις](https://github.com/courses-ionio/help/discussions/categories/show-and-tell) | Αυτοαξιολόγηση σύμφωνα με τα κριτήρια της αντίστοιχης άσκησης |
 | --- | --- | --- | --- |
 | 1 | [Δημιουργία ομάδας](https://epidrome.github.io/teaching/team/) + [Φορκ και δημιουργία σελίδας τελικής αναφοράς](https://epidrome.github.io/teaching/guide/), [προσθήκη πίνακα περιεχομένων](https://raw.githubusercontent.com/courses-ionio/sw/master/README.md), [συγγραφή της εισαγωγής](https://epidrome.github.io/teaching/intro/), αποστολή της εισαγωγής [για σχολιασμό στην συζήτηση](https://github.com/courses-ionio/sw/discussions/categories/show-and-tell) και καταγραφή του συνδέσμου συζήτησης δίπλα --> |[Παραδοτέο 1 με σύνδεσμο συζήτησης](https://github.com/courses-ionio/sw/discussions/1181)|Το πρώτο παραδοτέο και η δημιουργία καινούριας ομάδας ήταν μία καλή ευκαιρία να χρησιμοποιήσω git, GitHub και submodules και να εξοικειωθώ με τη βάση κώδικα με την οποία θα ασχολήθούμε αυτό το εξάμηνο. Παράλληλα είχα την ευκαιρία να δημιουργήσω μία ομάδα με συμφοιτητές μου κάτι που ήταν σχετικά εύκολο και γρήγορο λόγω της καλής επικοινωνίας με την ομάδα.|
-| 2 | [Γραμμή εντολών](https://epidrome.github.io/teaching/cli) (systemd) και [διαδικασία συνεργασίας με pull request στον οργανισμό της ομάδας σας](https://epidrome.github.io/teaching/team) | | |
-| 3 | Γραμμή εντολών (no systemd) |[Παραδοτέο 2 με σύνδεσμο συζήτησης]()|Έμαθα αρκετά για το ntfy και πως να δημιουργώ αυτοματοποιημένες ειδοποιήσεις για όταν έχω να τρέχω μεγάλα προγράμματα και πως να συνδέω την ολοκλήρωσή του με το telegram bot. Γενικά μου άρεσε αρκετά το γνωστικό αντικείμενο αυτής της εβδομάδας και έχω καλύτερες βάσεις για τις απόμενες ασκήσεις γραμμής εντολών. Επίσης, βάλαμε κανόνες στον οργανισμό μας σχετικά με τη συνεργασία μας αυτό το εξάμηνο.|
+| 2 | [Γραμμή εντολών](https://epidrome.github.io/teaching/cli) (systemd) και [διαδικασία συνεργασίας με pull request στον οργανισμό της ομάδας σας](https://epidrome.github.io/teaching/team) |[Παραδοτέο 2 με σύνδεσμο συζήτησης](https://github.com/courses-ionio/sw/discussions/1272)| Έμαθα αρκετά για το ntfy και πως να δημιουργώ αυτοματοποιημένες ειδοποιήσεις για όταν έχω να τρέξω μεγάλα προγράμματα και πως να συνδέω την ολοκλήρωσή του με το telegram bot. Γενικά μου άρεσε αρκετά το γνωστικό αντικείμενο αυτής της εβδομάδας και έχω καλύτερες βάσεις για τις απόμενες ασκήσεις γραμμής εντολών. Επίσης, βάλαμε κανόνες στον οργανισμό μας σχετικά με τη συνεργασία μας αυτό το εξάμηνο.|
+| 3 | Γραμμή εντολών (no systemd) | | |
 | 4 | Κατασκευή του βιβλίου Α2 (συνεργατικά) | | |
 | 5 | Συμμετοχικό περιεχόμενο A1 + A2 | | |
 | 6 | Γραμμή εντολών (no systemd, custom static blog generator) | | |
@@ -40,6 +40,10 @@ python3 test.py | sort > results.txt && STATUS='Test completed' && ntfy -b teleg
 ![bot-telegram](https://user-images.githubusercontent.com/72712133/221399096-20f12925-c8d6-4918-b930-e6bacd13d941.gif)
 
 ![notifications-bot-telegram](https://user-images.githubusercontent.com/72712133/221397654-dba51604-78ca-47c4-b62d-9e4dc25fcda0.jpg)
+
+### Διαδικασία Συνεργασίας 
+Δημιουργήσαμε καινούριο repo στον οργανισμό μας με README.md που έχει τα στοιχεία των μελών της ομάδας αλλά και τους κανόνες συνεργασίας που θα χρησιμοποιήσουμε ως ομάδα αυτό το εξάμηνο.
+[https://github.com/TaMpotakia/team-repo/blob/main/README.md](https://github.com/TaMpotakia/team-repo/blob/main/README.md)
 
 
 ## Εβδομάδα 3
