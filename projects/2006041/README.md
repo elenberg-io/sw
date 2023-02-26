@@ -37,9 +37,7 @@ python3 test.py | sort > results.txt && STATUS='Test completed' && ntfy -b teleg
 
 [Asciinema link](https://asciinema.org/a/562935)
 
-<script async id="asciicast-562935" src="https://asciinema.org/a/562935.js"></script>
-
-[![asciicast](https://asciinema.org/a/562935.svg)](https://asciinema.org/a/562935)
+![bot-telegram](https://user-images.githubusercontent.com/72712133/221399096-20f12925-c8d6-4918-b930-e6bacd13d941.gif)
 
 ![notifications-bot-telegram](https://user-images.githubusercontent.com/72712133/221397654-dba51604-78ca-47c4-b62d-9e4dc25fcda0.jpg)
 
