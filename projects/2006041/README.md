@@ -57,6 +57,16 @@ python3 test.py | sort > results.txt && STATUS='Test completed' && ntfy -b teleg
 - Devuan: Το Devuan είναι fork του γνωστού Debian (για παράδειγμα τα Ubuntu είναι μια Linux distribution που βασίζεται στο Debian), άρα πιο προσητό σε χρήστες συστημάτων Debian τα οποία αποτελούν και τη μεγαλύτερη distribution Linux με μεγάλη κοινότητα. Το default shell είναι το Bash και ο διαχειριστής πακέτων είναι ο apt. Επειδή το περιβάλλον επιφάνειας εργασίας GNOME δεν περιλαμβάνεται με την default εγκατάσταση μπορεί να εγκατασταθεί απο το χρήστη ξεχωριστά, αλλά λόγω της εξάρτησής του απο στοιχεία systemd, όπως για παράδειγμα των eudev και elogind, πολλοί αντιτίθενται στη χρήση του και καλύτερο είναι να γίνεται χρήση των MATE, Cinnamon ή XFCE. Για το σύστημα εκκίνησης έχουμε τις SysV init και OpenRC ως επιλογές. Γενικά, είναι μία σταθερή Linux distribution με ενεργή κοινότητα.
 - Artix Linux: Το Artix Linux είναι fork του γνωστού Arch και βασίζεται πάνω στο Arch-OpenRC project. Κατά τη διαδικασία εγκατάστασης ο χρήστης έχει μπορεί να επιλέξει μεταξύ 3 συστημάτων έναρξης, OpenRC, runit και s6. Όσον αφορά το περιβάλλον επιφάνειας, Cinnamon, MATE και XFCE είναι διαθέσιμα, ενώ ο default διαχειριστής πακέτων είναι ο pacman και το default shell είναι το Bash.
 
-#### Εγκατάσταση Devuan
-Κατέβασα απο το [σάιτ του Devuan](https://www.devuan.org/os/documentation/install-guides/chimaera/install-devuan) το iso αρχείο και προχώρησα στην εγκατάσταση του Devuan σε vm μέσω VirtualBox. Αρχικά διάλεξα γλώσσα και χώρα, username και password, partitioning scheme για το disk (οπου έπρεπε να λυσω το error που προέκυψε "No Root File System Is Defined"), network configuraiton και κάποια άλλα βασικά, αρχικά configurations. Για desktop διάλεξα το Xfce ως το πιό lightweight desktop γιατί το Cinnamon μπορεί να είναι μεν πιό μοντέρνο και με περισσότερα χαρακτηριστικά αλλά είναι πιό βαρύ. Για init system διάλεξα το sysvinit. Πρόσθεσα παραπάνω repositories στο αρχείο sources.list για να μπορώ να κατεβάσω περισσότερα πακέτα και utilities.
+#### Εγκατάσταση Devuan & qr-filetransfer
+Κατέβασα απο το [σάιτ του Devuan](https://www.devuan.org/os/documentation/install-guides/chimaera/install-devuan) το iso αρχείο και προχώρησα στην εγκατάσταση του Devuan σε vm μέσω VirtualBox. Αρχικά διάλεξα γλώσσα και χώρα, username και password, partitioning scheme για το disk (οπου έπρεπε να λυσω το error που προέκυψε "No Root File System Is Defined"), network configuraiton και κάποια άλλα βασικά, αρχικά configurations. Για desktop διάλεξα το Xfce ως το πιό lightweight desktop γιατί το Cinnamon μπορεί να είναι μεν πιό μοντέρνο και με περισσότερα χαρακτηριστικά αλλά είναι πιό βαρύ. Για init system διάλεξα το sysvinit. Πρόσθεσα παραπάνω repositories στο αρχείο sources.list για να μπορώ να κατεβάσω περισσότερα πακέτα και utilities. Εγκατέστησα το qr-filetransfer για να να κάνω την άσκηση όπου στέλνω μία εικόνα, την οποία κατέβασα με `wget` στο vm μου, και μετά την έστειλα στο κινητό μου που είναι συνδεδεμένο στο ίδιο δίκτυο με χρήση του qr-filetransfer. Επίσης ήθελα να δείξω παράλληλα τα χαρακτηριστικά του vm μου και του λειτουργικού συστήματος Devuan με την παρακάτω εντολή:
+
+`sudo dmesg && neofetch && sudo qr-filetransfer 2006041_image.png`
+
+Asciinema link: [https://asciinema.org/a/564941](https://asciinema.org/a/564941)
+
+[![asciicast](https://asciinema.org/a/564941.svg)](https://asciinema.org/a/564941)
+
+
+
+
 
