@@ -64,6 +64,8 @@ python3 test.py | sort > results.txt && STATUS='Test completed' && ntfy -b teleg
 
 Asciinema link: [https://asciinema.org/a/564948](https://asciinema.org/a/564948)
 
+![asciicast gif](https://user-images.githubusercontent.com/72712133/222987020-a5b2ef8f-2363-44f7-a848-bad995281737.gif)
+
 [![asciicast](https://asciinema.org/a/564948.svg)](https://asciinema.org/a/564948)
 
 
