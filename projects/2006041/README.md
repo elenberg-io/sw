@@ -62,9 +62,9 @@ python3 test.py | sort > results.txt && STATUS='Test completed' && ntfy -b teleg
 
 `sudo dmesg && neofetch && sudo qr-filetransfer 2006041_image.png`
 
-Asciinema link: [https://asciinema.org/a/564941](https://asciinema.org/a/564941)
+Asciinema link: [https://asciinema.org/a/564941](https://asciinema.org/a/564948)
 
-[![asciicast](https://asciinema.org/a/564941.svg)](https://asciinema.org/a/564941)
+[![asciicast](https://asciinema.org/a/564948.svg)](https://asciinema.org/a/564948)
 
 
 
